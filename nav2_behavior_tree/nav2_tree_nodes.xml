@@ -140,6 +140,7 @@
     </Action>
 
     <Action ID="TruncatePathLocal">
+      <input_port name="input_path"></input_port>
       <input_port name="distance_forward">Distance in forward direction</input_port>
       <input_port name="distance_backward">Distance in backward direction</input_port>
       <input_port name="robot_frame">Robot base frame id</input_port>
